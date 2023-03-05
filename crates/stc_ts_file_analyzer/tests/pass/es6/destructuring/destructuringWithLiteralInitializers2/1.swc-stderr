@@ -1,0 +1,99 @@
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:12:1]
+ 12 | // function f21([x = 0, y = 'bar'] = []) {}
+ 13 | function f22([x = 0, y = 'bar'] = [1]) {}
+    :                                   ^^^
+ 14 | f22();
+    `----
+
+Error: 
+  > [1]
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:13:1]
+ 13 | function f22([x = 0, y = 'bar'] = [1]) {}
+ 14 | f22();
+    : ^^^
+ 15 | // function f23([x = 0, y = 'bar'] = [1, 'foo']) {}
+    `----
+
+Error: 
+  > ([x = 0, y = 'bar']?: [number, (string | undefined)?]) => void
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:13:1]
+ 13 | function f22([x = 0, y = 'bar'] = [1]) {}
+ 14 | f22();
+    : ^^^^^
+ 15 | // function f23([x = 0, y = 'bar'] = [1, 'foo']) {}
+    `----
+
+Error: 
+  > void
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:22:1]
+ 22 | // function f32([x = 0, y = 'bar'] = [nx]) {}
+ 23 | function f33([x = 0, y = sx] = [1]) {
+    :                                ^^^
+ 24 |   y;
+    `----
+
+Error: 
+  > [1]
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:22:1]
+ 22 | // function f32([x = 0, y = 'bar'] = [nx]) {}
+ 23 | function f33([x = 0, y = sx] = [1]) {
+    :                          ^^
+ 24 |   y;
+    `----
+
+Error: 
+  > unknown
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:23:1]
+ 23 | function f33([x = 0, y = sx] = [1]) {
+ 24 |   y;
+    :   ^
+ 25 |   x;
+    `----
+
+Error: 
+  > unknown
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:24:1]
+ 24 |   y;
+ 25 |   x;
+    :   ^
+ 26 | }
+    `----
+
+Error: 
+  > (number | 0)
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:46:1]
+ 46 | // f32();
+ 47 | f33();
+    : ^^^
+ 48 | // f40([1, 'a']);
+    `----
+
+Error: 
+  > ([x = 0, y = sx]?: [number, unknown?]) => void
+
+  x Type
+    ,-[$DIR/tests/pass/es6/destructuring/destructuringWithLiteralInitializers2/1.ts:46:1]
+ 46 | // f32();
+ 47 | f33();
+    : ^^^^^
+ 48 | // f40([1, 'a']);
+    `----
+
+Error: 
+  > void

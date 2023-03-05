@@ -1384,6 +1384,7 @@ expressions/binaryOperators/comparisonOperator/comparisonOperatorWithNoRelations
 expressions/binaryOperators/comparisonOperator/comparisonOperatorWithNoRelationshipObjectsOnOptionalProperty.ts
 expressions/binaryOperators/comparisonOperator/comparisonOperatorWithNoRelationshipObjectsOnProperty.ts
 expressions/binaryOperators/comparisonOperator/comparisonOperatorWithNoRelationshipPrimitiveType.ts
+expressions/binaryOperators/comparisonOperator/comparisonOperatorWithNoRelationshipTypeParameter.ts
 expressions/binaryOperators/comparisonOperator/comparisonOperatorWithNumericLiteral.ts
 expressions/binaryOperators/comparisonOperator/comparisonOperatorWithOneOperandIsAny.ts
 expressions/binaryOperators/comparisonOperator/comparisonOperatorWithOneOperandIsNull.ts
@@ -2126,6 +2127,7 @@ parser/ecmascript6/Symbols/parserSymbolProperty7.ts
 parser/ecmascript6/Symbols/parserSymbolProperty8.ts
 parser/ecmascript6/Symbols/parserSymbolProperty9.ts
 references/library-reference-6.ts
+sSymbols/ES5SymbolProperty3.ts
 salsa/inferringClassMembersFromAssignments8.ts
 salsa/mixedPropertyElementAccessAssignmentDeclaration.ts
 salsa/propertyAssignmentUseParentType3.ts
@@ -2156,6 +2158,7 @@ statements/breakStatements/forInBreakStatements.ts
 statements/breakStatements/invalidSwitchBreakStatement.ts
 statements/breakStatements/switchBreakStatements.ts
 statements/breakStatements/whileBreakStatements.ts
+statements/continueStatements/doWhileContinueStatements.
 statements/continueStatements/doWhileContinueStatements.ts
 statements/continueStatements/forContinueStatements.ts
 statements/continueStatements/forInContinueStatements.ts
@@ -2168,6 +2171,10 @@ statements/for-inStatements/for-inStatementsDestructuring.ts
 statements/for-inStatements/for-inStatementsDestructuring2.ts
 statements/for-inStatements/for-inStatementsDestructuring3.ts
 statements/for-inStatements/for-inStatementsDestructuring4.ts
+statements/for-ofStatements/ES3For-ofTypeCheck1.ts
+statements/for-ofStatements/ES3For-ofTypeCheck2.ts
+statements/for-ofStatements/ES3For-ofTypeCheck4.ts
+statements/for-ofStatements/ES3For-ofTypeCheck6.ts
 statements/for-ofStatements/ES5For-of1.ts
 statements/for-ofStatements/ES5For-of10.ts
 statements/for-ofStatements/ES5For-of11.ts

@@ -1,0 +1,40 @@
+
+  x Type
+   ,-[$DIR/tests/pass/vars/typeAnn/tuple/2.ts:1:1]
+ 1 | let a = [[1]];
+   :          ^^^
+ 2 | a;
+   `----
+
+Error: 
+  > [1]
+
+  x Type
+   ,-[$DIR/tests/pass/vars/typeAnn/tuple/2.ts:1:1]
+ 1 | let a = [[1]];
+   :         ^^^^^
+ 2 | a;
+   `----
+
+Error: 
+  > [[1]]
+
+  x Type
+   ,-[$DIR/tests/pass/vars/typeAnn/tuple/2.ts:1:1]
+ 1 | let a = [[1]];
+ 2 | a;
+   : ^
+   `----
+
+Error: 
+  > [number][]
+
+  x Type
+   ,-[$DIR/tests/pass/vars/typeAnn/tuple/2.ts:4:1]
+ 4 | declare const b: string | any;
+ 5 | b;
+   : ^
+   `----
+
+Error: 
+  > (string | any)
